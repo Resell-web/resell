@@ -1,0 +1,53 @@
+* {
+
+}
+
+body {
+
+}
+
+.navbar-content {
+  display: none;
+  position: absolute;
+}
+
+.cookie-container {
+  font-family: sans-serif;
+  padding: 32px;
+  margin: 24px 0;
+  line-height: 2;
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background: #2f3640;
+  color: #808080;
+  padding: 0 32px;
+  transition: 400ms;
+  box-shadow: 0 -2px 16px #2f3640;
+}
+
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a {
+  color: #4d4dff;
+}
+
+.cookie-btn {
+  background: #ff1a1a;
+  border: 0;
+  padding: 12px 48px;
+  font-size: 18px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
