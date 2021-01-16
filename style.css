@@ -1,101 +1,143 @@
 * {
-background: black;
-}
-
-
-body {
-
-}
-
-.navbar-content {
-  display: none;
-  position: absolute;
-}
-
-.cookie-container {
-  font-family: sans-serif;
-  padding: 32px;
-  margin: 24px 0;
-  line-height: 2;
-  position: fixed;
-  bottom: 99999px;
-  left: 0;
-  right: 0;
-  background: #2f3640;
-  color: #808080;
-  padding: 0 32px;
-  transition: 400ms;
-  box-shadow: 0 -2px 16px #2f3640;
-}
-
-.cookie-container.active {
-  bottom: 0;
-}
-
-.cookie-container a {
-  color: #4d4dff;
-}
-
-.cookie-btn {
-  background: #ff1a1a;
-  border: 0;
-  padding: 12px 48px;
-  font-size: 18px;
-  margin-bottom: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.logo {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 50px;
-  font-weight: bolder;
-  color: black;
-}
-
-.logo a{
-  text-decoration: none;
-  color: black;
-  background: linear-gradient(135deg,  #f56d2f, #f51d1d, #1da2f5, #1df58d);
-  animation: bg-animation 1.5s linear infinite;
-}
-
-@keyframes bg-animation {
-  100%{
-    filter: hue-rotate(360deg);
-}
-}
-
-.navbar {
-  display: block;
-  position: relative;
-  float: left;
-  top: -10px;
-  color: white;
-}
-
-.navigation-content {
-  display: none;
-}
-
-.navigation-content a{
-  display: block;
-  position: absolute;
-}
-
-.navbar:hover .navigation-content{
-    display: block;
+  background: black;
   }
 
-.navigation-content a{
-  padding: 12px 16px;
-  text-decoration: none;
-  float: none;
-  display: block;
+  .cookie-container {
+    font-family: sans-serif;
+    padding: 32px;
+    margin: 24px 0;
+    line-height: 2;
+    position: fixed;
+    bottom: 99999px;
+    left: 0;
+    right: 0;
+    background: #2f3640;
+    color: #808080;
+    padding: 0 32px;
+    transition: 400ms;
+    box-shadow: 0 -2px 16px #2f3640;
+  }
+
+  .cookie-container.active {
+    bottom: 0;
+  }
+
+  .cookie-container a {
+    color: #4d4dff;
+  }
+
+  .cookie-btn {
+    background: #ff1a1a;
+    border: 0;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .logo {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .logo a{
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(135deg,  #f56d2f, #f51d1d, #1da2f5, #1df58d);
+    animation: bg-animation 1.5s linear infinite;
+  }
+
+ .navbar {
+font-family: sans-serif;
+width: 45px;
+position: relative;
+bottom: 115px;
+ }
+
+ .navbar-content {
+   display: none;
+   position: relative;
+   top: 15px;
+ }
+
+ .navbar-content a{
+   display: block;
+   text-decoration: none;
+   color: white;
+   font-weight: bolder;
+   padding: 5px;
+ }
+
+ .navbar:hover .navbar-content {
+   display: block;
+ }
+
+ .shop-button {
+  text-align: center;
+  position: relative;
+  top: 200px;
+  font-family: sans-serif;
+  font-size: 50px;
+ }
+
+ .shop-button a{
+   color: white;
+   text-decoration: none;
+
+ }
+
+/*animations*/
+
+  @keyframes bg-animation {
+    100%{
+      filter: hue-rotate(360deg);
+  }
 }
 
-.SNEAKERS-navbar a{
-  position: relative;
+@media only screen and (max-width:520px) {
+  .logo {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+  }
+  .navbar {
+ font-family: sans-serif;
+ width: 45px;
+ position: relative;
+ bottom: 100px;
+  }
+}
 
+@media only screen and (max-width:400px) {
+  .logo {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 37px;
+    font-weight: bolder;
+    color: black;
+  }
+  .navbar {
+ font-family: sans-serif;
+ width: 45px;
+ position: relative;
+ bottom: 75px;
+  }
+  .shop-button {
+   text-align: center;
+   position: relative;
+   top: 200px;
+   font-family: sans-serif;
+   font-size: 30px;
+  }
+
+  .shop-button a{
+    color: white;
+    text-decoration: none;
+  }
 }
