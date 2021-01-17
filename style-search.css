@@ -55,7 +55,7 @@
 font-family: sans-serif;
 width: 45px;
 position: relative;
-bottom: 115px;
+bottom: 220px;
  }
 
  .navbar-content {
@@ -92,14 +92,33 @@ bottom: 115px;
  .shop-button a{
    color: white;
    text-decoration: none;
-
  }
 
- .search-icon a{
-   position: relative;
-   float: right;
-   bottom: 100px;
- }
+.wrapper {
+  position: relative;
+  text-align: center;
+  top: 150px;
+  font-family: sans-serif;
+  background: gray;
+  box-sizing: border-box;
+}
+
+.wrapper .search-input {
+
+}
+
+.autocom-box {
+  color: #fff;
+}
+.icon {
+  cursor: pointer;
+  width: 20px;
+  text-align: center;
+}
+input, select, textarea {
+color: #fff;
+}
+
 
 /*animations*/
 
@@ -137,7 +156,7 @@ bottom: 115px;
  font-family: sans-serif;
  width: 45px;
  position: relative;
- bottom: 75px;
+ bottom: 206px;
   }
 
  .navbar-img {
