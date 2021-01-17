@@ -47,7 +47,7 @@
   .logo a{
     text-decoration: none;
     color: black;
-    background: linear-gradient(135deg,  #f56d2f, #f51d1d, #1da2f5, #1df58d);
+    background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
     animation: bg-animation 1.5s linear infinite;
   }
 
@@ -70,10 +70,15 @@ bottom: 115px;
    color: white;
    font-weight: bolder;
    padding: 5px;
+   font-size: 30px;
  }
 
  .navbar:hover .navbar-content {
    display: block;
+ }
+
+ .navbar-img {
+   width: 50px;
  }
 
  .shop-button {
@@ -128,6 +133,11 @@ bottom: 115px;
  position: relative;
  bottom: 75px;
   }
+
+ .navbar-img {
+   width: 40px;
+ }
+
   .shop-button {
    text-align: center;
    position: relative;
