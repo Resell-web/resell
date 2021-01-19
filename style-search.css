@@ -54,8 +54,9 @@
  .navbar {
 font-family: sans-serif;
 width: 45px;
+height: 100px;
 position: relative;
-bottom: 220px;
+bottom: 50px;
  }
 
  .navbar-content {
@@ -71,6 +72,7 @@ bottom: 220px;
    font-weight: bolder;
    padding: 5px;
    font-size: 30px;
+   width: 50px;
  }
 
  .navbar:hover .navbar-content {
@@ -94,31 +96,39 @@ bottom: 220px;
    text-decoration: none;
  }
 
-.wrapper {
-  position: relative;
-  text-align: center;
-  top: 150px;
-  font-family: sans-serif;
-  background: gray;
-  box-sizing: border-box;
-}
-
-.wrapper .search-input {
-
-}
-
-.autocom-box {
+ input, select, textarea {
   color: #fff;
-}
-.icon {
-  cursor: pointer;
-  width: 20px;
-  text-align: center;
-}
-input, select, textarea {
-color: #fff;
-}
+  }
 
+ .search-box {
+   text-align: center;
+   margin-top: 20px;
+   position: relative;
+   top: 90px;
+   height: 0px;
+ }
+
+ .search-box li{
+   list-style-type: none;
+   padding: 15px;
+
+ }
+
+ .search-box a{
+   text-decoration: none;
+   color: #fff;
+   font-family: sans-serif;
+   padding-top: 20px;
+ }
+
+.container-search-box {
+width: 1000px;
+height: 230px;
+background: #000;
+position: relative;
+top: 260px;
+text-align: center;
+}
 
 /*animations*/
 
