@@ -108,68 +108,71 @@ bottom: 115px;
       filter: hue-rotate(360deg);
   }
 }
-
-@media only screen and (max-width:520px) {
-  .logo {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 40px;
-    font-weight: bolder;
-    color: black;
-  }
-  .navbar {
- font-family: sans-serif;
- width: 45px;
- position: relative;
- bottom: 100px;
-  }
+/*Moto G4*/  @media only screen and (max-width:375px) {
+.logo {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  color: black;
 }
 
-@media only screen and (max-width:400px) {
-  .logo {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 37px;
-    font-weight: bolder;
-    color: black;
-  }
-  .navbar {
- font-family: sans-serif;
- width: 45px;
+.logo a{
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+  animation: bg-animation 1.5s linear infinite;
+}
+.navbar {
+font-family: sans-serif;
+width: 45px;
+position: relative;
+bottom: 85px;
+}
+
+.navbar-content {
+  display: none;
+  position: relative;
+  top: 15px;
+}
+
+.navbar-content a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  font-size: 25px;
+}
+
+
+.navbar-img {
+  width: 39px;
+}
+.shop-button {
+ text-align: center;
  position: relative;
- bottom: 75px;
-  }
+ top: 200px;
+ font-family: sans-serif;
+ font-size: 40px;
+}
 
- .navbar-img {
-   width: 40px;
- }
+.shop-button a{
+  color: white;
+  text-decoration: none;
+}
 
- .navbar-content a{
-   display: block;
-   text-decoration: none;
-   color: white;
-   font-weight: bolder;
-   padding: 5px;
-   font-size: 25px;
- }
+.search-icon {
 
-  .shop-button {
-   text-align: center;
-   position: relative;
-   top: 200px;
-   font-family: sans-serif;
-   font-size: 30px;
-  }
+}
 
-  .shop-button a{
-    color: white;
-    text-decoration: none;
-  }
-  .search-icon a{
-    position: relative;
-    float: right;
-    bottom: 80px;
-    width:
-  }
-  }
+.search-icon a{
+  position: relative;
+  float: right;
+  bottom: 87px;
+  padding-right: 4px;
+}
+.search-icon-image {
+  width: 37px;
+}
+
 }
