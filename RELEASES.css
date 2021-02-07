@@ -1,0 +1,388 @@
+* {
+  background: #fff;
+  }
+
+  .cookie-container {
+    font-family: sans-serif;
+    padding: 32px;
+    margin: 24px 0;
+    line-height: 2;
+    position: fixed;
+    bottom: 99999px;
+    left: 0;
+    right: 0;
+    background: #2f3640;
+    color: #808080;
+    padding: 0 32px;
+    transition: 400ms;
+    box-shadow: 0 -2px 16px #2f3640;
+  }
+
+  .cookie-container.active {
+    bottom: 0;
+  }
+
+  .cookie-container a {
+    color: #4d4dff;
+  }
+
+  .cookie-btn {
+    background: #ff1a1a;
+    border: 0;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .logo {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .logo a{
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+    animation: bg-animation 1.5s linear infinite;
+    border-radius: 5px;
+  }
+
+ .navbar {
+font-family: sans-serif;
+width: 45px;
+position: relative;
+bottom: 60px;
+ }
+
+ .navbar-content {
+   display: none;
+   position: relative;
+   top: 15px;
+ }
+
+ .navbar-content a{
+   display: block;
+   text-decoration: none;
+   color: #000;
+   font-weight: bolder;
+   padding: 5px;
+   font-size: 30px;
+ }
+
+ .navbar:hover .navbar-content {
+   display: block;
+ }
+
+ .navbar-img {
+   width: 50px;
+ }
+
+ .shop-button {
+  text-align: center;
+  position: relative;
+  top: 200px;
+  font-family: sans-serif;
+  font-size: 50px;
+ }
+
+ .shop-button a{
+   color: #000;
+   text-decoration: none;
+
+ }
+
+ .search-icon a{
+   position: relative;
+   float: right;
+   bottom: 50px;
+ }
+
+ .box1 {
+   width: 200px;
+   height: 300px;
+   position: relative;
+   left: 300px;
+   top: 100px;
+   border-radius: 5px;
+   font-family: monospace;
+   font-size: 20px;
+   height: 0;
+ }
+
+ .box1-img {
+   top: 30px
+ }
+
+.name1 {
+  position: relative;
+  left: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.box2 {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 600px;
+  top: 100px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 20px;
+  height: 0;
+}
+
+.box2-img {
+  top: 30px
+}
+
+.name2 {
+ position: relative;
+ left: 20px;
+ color: #000;
+ text-decoration: none;
+}
+
+.box3 {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 900px;
+  top: 100px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 20px;
+  height: 0px;
+}
+
+.box3-img {
+  top: 30px
+}
+
+.name3 {
+ position: relative;
+ left: 20px;
+ color: #000;
+ text-decoration: none;
+}
+
+
+/*animations*/
+
+  @keyframes bg-animation {
+    100%{
+      filter: hue-rotate(360deg);
+  }
+}
+/*Moto G4, iphone6/7/8, Galaxy S5 HORIZONTAL*/  @media only screen and (max-width:375px) {
+.logo {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  color: black;
+}
+
+.logo a{
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+  animation: bg-animation 1.5s linear infinite;
+}
+.navbar {
+font-family: sans-serif;
+width: 35px;
+position: relative;
+bottom: 40px;
+}
+
+.navbar-content {
+  display: none;
+  position: relative;
+  top: 15px;
+}
+
+.navbar-content a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+  padding: 5px;
+  font-size: 25px;
+}
+
+
+.navbar-img {
+  width: 39px;
+}
+.shop-button {
+ text-align: center;
+ position: relative;
+ top: 200px;
+ font-family: sans-serif;
+ font-size: 40px;
+}
+
+.shop-button a{
+  color: white;
+  text-decoration: none;
+}
+
+.search-icon {
+
+}
+
+.search-icon a{
+  position: relative;
+  float: right;
+  bottom: 39px;
+  padding-right: 4px;
+}
+.search-icon-image {
+  width: 38px;
+}
+
+.box1 {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 80px;
+  top: 200px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 20px;
+  height: 0;
+}
+
+.box1-img {
+  top: 30px
+}
+
+.name1 {
+ position: relative;
+ left: 20px;
+ color: #000;
+ text-decoration: none;
+}
+
+.box2 {
+ width: 200px;
+ height: 300px;
+ position: relative;
+ left: 80px;
+ top: 400px;
+ border-radius: 5px;
+ font-family: monospace;
+ font-size: 20px;
+ height: 0;
+}
+
+.box2-img {
+ top: 30px
+}
+
+.name2 {
+position: relative;
+left: 20px;
+color: #000;
+text-decoration: none;
+}
+
+.box3 {
+ width: 200px;
+ height: 300px;
+ position: relative;
+ left: 80px;
+ top: 600px;
+ border-radius: 5px;
+ font-family: monospace;
+ font-size: 20px;
+ height: 0px;
+}
+
+.box3-img {
+ top: 30px
+}
+
+.name3 {
+position: relative;
+left: 20px;
+color: #000;
+text-decoration: none;
+}
+
+}
+
+/*Moto G4, iphone6/7/8/X, Galaxy S5/Fold, pixel 2/XL WERTIKAL*/  @media only screen and (max-width:850px) and (max-height:450px) {
+
+.logo {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+
+.logo a{
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+  animation: bg-animation 1.5s linear infinite;
+}
+.navbar {
+font-family: sans-serif;
+width: 45px;
+position: relative;
+bottom: 75px;
+}
+
+.navbar-content {
+  display: none;
+  position: relative;
+  top: 15px;
+}
+
+.navbar-content a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  font-size: 25px;
+}
+
+
+.navbar-img {
+  width: 39px;
+}
+.shop-button {
+ text-align: center;
+ position: relative;
+ top: 130px;
+ font-family: sans-serif;
+ font-size: 30px;
+}
+
+.shop-button a{
+  color: white;
+  text-decoration: none;
+}
+
+.search-icon {
+
+}
+
+.search-icon a{
+  position: relative;
+  float: right;
+  bottom: 77px;
+  padding-right: 4px;
+}
+.search-icon-image {
+  width: 37px;
+}
+
+}
