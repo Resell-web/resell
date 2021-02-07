@@ -53,6 +53,7 @@
     color: black;
     background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
     animation: bg-animation 1.5s linear infinite;
+    border-radius: 5px;
   }
 
  .navbar {
