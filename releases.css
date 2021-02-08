@@ -152,7 +152,7 @@ bottom: 60px;
   width: 200px;
   height: 300px;
   position: relative;
-  left: 900px;
+  float: right;
   top: 100px;
   border-radius: 5px;
   font-family: monospace;
