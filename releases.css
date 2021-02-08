@@ -106,7 +106,7 @@ bottom: 60px;
    width: 200px;
    height: 300px;
    position: relative;
-   left: 300px;
+   float: left;
    top: 100px;
    border-radius: 5px;
    font-family: monospace;
