@@ -119,7 +119,7 @@ bottom: 135px;
 }
 
 .logo-img {
-  width: 80px;
+  width: 100px;
 }
 
 .logo a{
@@ -132,7 +132,7 @@ bottom: 135px;
 font-family: sans-serif;
 width: 45px;
 position: relative;
-bottom: 93px;
+bottom: 113px;
 }
 
 .navbar-content {
@@ -151,7 +151,7 @@ bottom: 93px;
 
 
 .navbar-img {
-  width: 39px;
+  width: 49px;
 }
 .shop-button {
  text-align: center;
@@ -173,11 +173,11 @@ bottom: 93px;
 .search-icon a{
   position: relative;
   float: right;
-  bottom: 95px;
+  bottom: 115px;
   padding-right: 4px;
 }
 .search-icon-image {
-  width: 37px;
+  width: 47px;
 }
 
 }
@@ -202,7 +202,7 @@ bottom: 93px;
 font-family: sans-serif;
 width: 45px;
 position: relative;
-bottom: 75px;
+bottom: 100px;
 }
 
 .navbar-content {
@@ -221,7 +221,7 @@ bottom: 75px;
 
 
 .navbar-img {
-  width: 39px;
+  width: 49px;
 }
 .shop-button {
  text-align: center;
@@ -243,11 +243,11 @@ bottom: 75px;
 .search-icon a{
   position: relative;
   float: right;
-  bottom: 77px;
+  bottom: 100px;
   padding-right: 4px;
 }
 .search-icon-image {
-  width: 37px;
+  width: 47px;
 }
 
 }

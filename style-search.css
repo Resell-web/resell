@@ -294,14 +294,14 @@ body {
 .logo a{
   text-decoration: none;
   color: black;
-  background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
-  animation: bg-animation 1.5s linear infinite;
+  backgroun: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+  animatio: bg-animation 1.5s linear infinite;
 }
 .navbar {
 font-family: sans-serif;
 width: 45px;
 position: relative;
-bottom: 40px;
+bottom: 66px;
 }
 
 .navbar-content {
@@ -312,7 +312,7 @@ bottom: 40px;
 
 .navbar-content a{
   text-decoration: none;
-  color: white;
+  color: #000;
   font-weight: bolder;
   padding: 5px;
   font-size: 25px;
@@ -320,7 +320,7 @@ bottom: 40px;
 
 
 .navbar-img {
-  width: 39px;
+  width: 49px;
 }
 .shop-button {
  position: relative;
@@ -363,7 +363,7 @@ bottom: 40px;
 
 .search-box a{
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-family: sans-serif;
   padding-top: 20px;
 }
