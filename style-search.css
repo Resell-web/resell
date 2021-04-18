@@ -61,7 +61,7 @@ font-family: sans-serif;
 width: 45px;
 height: 100px;
 position: relative;
-bottom: 77px;
+bottom: 87px;
  }
 
  .navbar-content {
@@ -363,7 +363,7 @@ bottom: 66px;
 
 .search-box a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-family: sans-serif;
   padding-top: 20px;
 }

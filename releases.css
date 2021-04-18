@@ -44,11 +44,15 @@
     color: black;
   }
 
+  .logo-img {
+
+  }
+
   .logo a{
     text-decoration: none;
     color: black;
-    background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
-    animation: bg-animation 1.5s linear infinite;
+    backgroun: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+    animatio: bg-animation 1.5s linear infinite;
     border-radius: 5px;
   }
 
@@ -56,7 +60,7 @@
 font-family: sans-serif;
 width: 45px;
 position: relative;
-bottom: 60px;
+bottom: 87px;
  }
 
  .navbar-content {
@@ -99,7 +103,7 @@ bottom: 60px;
  .search-icon a{
    position: relative;
    float: right;
-   bottom: 50px;
+   bottom: 82px;
  }
 
  .box1 {
@@ -188,17 +192,21 @@ bottom: 60px;
   color: black;
 }
 
+.logo-img {
+  width: 100px;
+}
+
 .logo a{
   text-decoration: none;
   color: black;
-  background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
-  animation: bg-animation 1.5s linear infinite;
+  backgroun: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+  animatio: bg-animation 1.5s linear infinite;
 }
 .navbar {
 font-family: sans-serif;
 width: 35px;
 position: relative;
-bottom: 40px;
+bottom: 68px;
 }
 
 .navbar-content {
@@ -217,7 +225,7 @@ bottom: 40px;
 
 
 .navbar-img {
-  width: 39px;
+  width: 49px;
 }
 .shop-button {
  text-align: center;
