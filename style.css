@@ -1,5 +1,5 @@
 * {
-  background: black;
+  background: #ffffff;
   }
 
   .cookie-container {
@@ -47,8 +47,8 @@
   .logo a{
     text-decoration: none;
     color: black;
-    background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
-    animation: bg-animation 1.5s linear infinite;
+    backgroun: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+    animatio: bg-animation 1.5s linear infinite;
     border-radius: 5px;
   }
 
@@ -56,7 +56,7 @@
 font-family: sans-serif;
 width: 45px;
 position: relative;
-bottom: 115px;
+bottom: 135px;
  }
 
  .navbar-content {
@@ -68,7 +68,7 @@ bottom: 115px;
  .navbar-content a{
    display: block;
    text-decoration: none;
-   color: white;
+   color: #000;
    font-weight: bolder;
    padding: 5px;
    font-size: 30px;
@@ -99,7 +99,7 @@ bottom: 115px;
  .search-icon a{
    position: relative;
    float: right;
-   bottom: 100px;
+   bottom: 140px;
  }
 
 /*animations*/
@@ -118,17 +118,21 @@ bottom: 115px;
   color: black;
 }
 
+.logo-img {
+  width: 60px;
+}
+
 .logo a{
   text-decoration: none;
   color: black;
-  background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
-  animation: bg-animation 1.5s linear infinite;
+  backgroun: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+  animatio: bg-animation 1.5s linear infinite;
 }
 .navbar {
 font-family: sans-serif;
 width: 45px;
 position: relative;
-bottom: 85px;
+bottom: 93px;
 }
 
 .navbar-content {
@@ -139,7 +143,7 @@ bottom: 85px;
 
 .navbar-content a{
   text-decoration: none;
-  color: white;
+  color: #000;
   font-weight: bolder;
   padding: 5px;
   font-size: 25px;
@@ -169,7 +173,7 @@ bottom: 85px;
 .search-icon a{
   position: relative;
   float: right;
-  bottom: 87px;
+  bottom: 95px;
   padding-right: 4px;
 }
 .search-icon-image {
@@ -191,8 +195,8 @@ bottom: 85px;
 .logo a{
   text-decoration: none;
   color: black;
-  background: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
-  animation: bg-animation 1.5s linear infinite;
+  backgroun: linear-gradient(135deg,  #f52f2f, #c3f33f, #1db1f5, #f57e1d);
+  animatio: bg-animation 1.5s linear infinite;
 }
 .navbar {
 font-family: sans-serif;
